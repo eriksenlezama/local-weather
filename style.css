@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700");
+body {
+  font-family: Merriweather;
+  height: 100vh;
+  background-color: #098;
+  color: white;
+  margin: 0;
+  background-size: cover;
+  background-position: center center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+a:hover {
+  color: #ddd;
+}
+
+h1 {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 320px;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.name p {
+  display: inline-block;
+}
+
+.skin-text {
+  margin-right: 30px;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 4px 15px;
+  border-radius: 3px;
+}
+
+.temp.skin-text {
+  display: inline;
+  margin: 0;
+  padding-right: 0;
+  border-radius: 6px 0 0 6px;
+}
+
+#mode {
+  border-radius: 0 6px 6px 0;
+}
+
+img {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+footer {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+#far, #cel, #mode {
+  margin-right: 10px;
+}
+
+#far, #cel {
+  cursor: pointer;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+#far:hover, #cel:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
